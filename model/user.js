@@ -12,10 +12,10 @@ const userSchema = new Schema(
     gender: String,
     photo_id: [String],
     photo_url: [String],
-    videos:[{
-        vid_id: String,
-        vid_url: String
-    }],
+    videos:{
+        vid_id: [String],
+        vid_url: [String]
+    },
     timestamp: Number,
   },
   { collection: "User" },
