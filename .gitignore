@@ -1,3 +1,5 @@
 usersdetails
-.env
 node_modules
+
+#secret
+.env
